@@ -7,7 +7,7 @@ def load_library
     meaning_emoticon{1}={japanese_emoticon}
     meaning_emoticon{2}={english_emoticon}
         
-    
+
 end
 
 def get_japanese_emoticon
