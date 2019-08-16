@@ -3,9 +3,13 @@ YAML.load_file('emoticons.yml')
 
 def load_library
   hash{}
-  hash.each do|meaning_emoticon,keys|
-    meaning_emoticon[1]=[japanese_emoticon]
-    meaning_emoticon[2]=[english_emoticon]
+  hash.each do|meaning,emoticon|
+    emoticons.each do |japanese_emoticon|
+    if hash[meaning] == nil
+      hash[meaning]={}
+      hash[meaning][japanese_emoticon]=[]
+    else
+      hash[meaning][japanese_emoticon]=[]
 
 
 end
