@@ -10,6 +10,9 @@ def load_library
       hash[meaning][japanese_emoticon]=[]
     else
       hash[meaning][japanese_emoticon]=[]
+    end
+    emoticons.each do |japanese_emoticon,meaning|
+      if hash['get_meaning'] && [japanese_emoticon] ==
 
 
 end
